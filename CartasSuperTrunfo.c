@@ -1,5 +1,3 @@
-
-//Nota: armazenar cartas em arrays ou estruturas de dados para facilitar o acesso e manipulação dos dados posteriormente.
 #include <stdio.h>
 
 // Desafio Super Trunfo - Países
@@ -18,8 +16,13 @@ int main() {
     int populacao2, ptsTuristicos2;
     float pib2, area2;
     
-    // Cadastro das Cartas:
-    
+    //Tela de boas vindas
+    printf(" =* Super Trunfo: Países - Cadastro de Cartas de Cidades *= \n");
+printf("\n");
+printf("Olá, player! Bem-vindo (a) ao Sistema de Cadastro de Cartas. Aqui você pode cadastrar e conferir as informações das cartas de cidades. Vamos lá! \n");
+printf("\n");
+
+    //Cadastro da Carta 1:
     
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
