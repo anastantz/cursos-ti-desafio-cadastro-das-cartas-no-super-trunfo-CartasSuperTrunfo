@@ -17,13 +17,51 @@ int main() {
     float pib2, area2;
     
     //Tela de boas vindas
-    printf(" =* Super Trunfo: Países - Cadastro de Cartas de Cidades *= \n");
+    printf(" =* Super Trunfo: Paises - Cadastro de Cartas de Cidades *= \n");
 printf("\n");
-printf("Olá, player! Bem-vindo (a) ao Sistema de Cadastro de Cartas. Aqui você pode cadastrar e conferir as informações das cartas de cidades. Vamos lá! \n");
+printf("Ola, player! Bem-vindo (a) ao Sistema de Cadastro de Cartas. Aqui voce pode cadastrar e conferir as informacoes das cartas de cidades. Vamos la! \n");
 printf("\n");
 
     //Cadastro da Carta 1:
+    printf("Insira os dados da Carta 1: \n ");
+    printf("Código da cidade: ");
+    scanf("%s", codigo1);
+
+    printf("Nome da cidade: ");
+    scanf("%s", nome1);
+
+    printf("Populacao: ");
+    scanf("%d", &populacao1);
+
+    printf("Area (km2): ");
+    scanf("%f", &area1);
+
+    printf("PIB: ");
+    scanf("%f", &pib1);
+
+    printf("Numero de pontos turisticos: ");
+    scanf("%d", &ptsTuristicos1);
     
+//Cadastro da Carta 2:
+printf("Insira os dados da Carta 2: \n");
+    printf("Codigo da cidade: ");
+    scanf("%s", codigo2);
+
+    printf("Nome da cidade: ");
+    scanf("%s", nome2);
+
+    printf("Populacao: ");
+    scanf("%d", &populacao2);
+
+    printf("Area (km2): ");
+    scanf("%f", &area2);
+
+    printf("PIB: ");
+    scanf("%f", &pib2);
+
+    printf("Numero de pontos turisticos: ");
+    scanf("%d", &ptsTuristicos2);
+
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
